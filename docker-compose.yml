@@ -13,6 +13,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: satuperxdx
+    ports:
+      - 3306:3306
 
   dev_phpmyadmin:
     image: phpmyadmin:latest
